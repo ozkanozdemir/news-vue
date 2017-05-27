@@ -4,6 +4,8 @@
 
 Source video [\[Coding Tutorials\] Vue.js 2 & Vue-Resource - Real-World Application With External API Access](https://www.youtube.com/watch?v=c8jnwiDGVGA)
 
+News source - [News Api](https://newsapi.org/)
+
 ## Build Setup
 
 ``` bash
