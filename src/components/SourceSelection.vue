@@ -33,11 +33,12 @@
         },
         methods: {
             sourceChanged(e) {
-                for (var i=0; i < this.sources.length; i++ ) {
-                    if (this.sources[i].id == e.target.value) {
-                        this.source = this.sources[i]
-                    }
-                }
+//                for (var i=0; i < this.sources.length; i++ ) {
+//                    if (this.sources[i].id == e.target.value) {
+//                        this.source = this.sources[i]
+//                    }
+//                }
+                this.source = this.sources.find(s => s.id === e.target.value)
                 this.$emit('sourceChanged', e.target.value)
             }
         }
